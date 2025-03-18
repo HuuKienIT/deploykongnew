@@ -1,7 +1,7 @@
 FROM kong:latest
 
-ENV KONG_DATABASE=kong_db_n4t0
-ENV KONG_PG_DATABASE=kong_db
+ENV KONG_DATABASE=postgres
+ENV KONG_PG_DATABASE=kong_db_n4t0
 ENV KONG_PG_USER=kong_db_n4t0_user
 ENV KONG_PG_PASSWORD=2fBKEEcEmPQtyDIBYYCUxho2Si0wpVsH
 ENV KONG_PG_HOST=dpg-cvcnafaj1k6c73av1sv0-a
